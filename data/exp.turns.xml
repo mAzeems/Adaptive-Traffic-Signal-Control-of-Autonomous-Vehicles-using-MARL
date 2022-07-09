@@ -1,0 +1,120 @@
+<turns>
+  <interval begin="0" end="7200">
+    <fromEdge id="np1_nt1">
+      <toEdge id="nt1_nt2" probability="0.20"/>
+      <toEdge id="nt1_nt6" probability="0.50"/>
+      <toEdge id="nt1_npc" probability="0.30"/>
+    </fromEdge>
+    <fromEdge id="np2_nt1">
+      <toEdge id="nt1_nt2" probability="0.15"/>
+      <toEdge id="nt1_nt6" probability="0.15"/>
+      <toEdge id="nt1_npc" probability="0.70"/>
+    </fromEdge>
+    <fromEdge id="np3_nt1">
+      <toEdge id="nt1_nt2" probability="0.50"/>
+      <toEdge id="nt1_nt6" probability="0.15"/>
+      <toEdge id="nt1_npc" probability="0.35"/>
+    </fromEdge>
+    <fromEdge id="np8_nt4">
+      <toEdge id="nt4_nt3" probability="0.40"/>
+      <toEdge id="nt4_nt5" probability="0.60"/>
+    </fromEdge>
+    <fromEdge id="np9_nt4">
+      <toEdge id="nt4_nt3" probability="0.60"/>
+      <toEdge id="nt4_nt5" probability="0.40"/>
+    </fromEdge>
+    <fromEdge id="nt3_nt2">
+      <toEdge id="nt2_np5" probability="1.00"/>
+    </fromEdge>
+    <fromEdge id="nt1_nt2">
+      <toEdge id="nt2_np4" probability="1.00"/>
+    </fromEdge>
+    <fromEdge id="nt5_nt6">
+      <toEdge id="nt6_np12" probability="1.00"/>
+    </fromEdge>
+    <fromEdge id="nt1_nt6">
+      <toEdge id="nt6_np13" probability="1.00"/>
+    </fromEdge>
+    <fromEdge id="npc_nt3">
+      <toEdge id="nt3_nt2" probability="0.30"/>
+      <toEdge id="nt3_np6" probability="0.70"/>
+    </fromEdge>
+    <fromEdge id="npc_nt5">
+      <toEdge id="nt5_nt6" probability="0.30"/>
+      <toEdge id="nt5_np11" probability="0.70"/>
+    </fromEdge>
+  </interval>
+  <interval begin="0" end="600">
+    <fromEdge id="nt1_npc">
+      <toEdge id="npc_nt3" probability="0.50"/>
+      <toEdge id="npc_nt5" probability="0.50"/>
+    </fromEdge>
+  </interval>
+  <interval begin="600" end="1200">
+    <fromEdge id="nt1_npc">
+      <toEdge id="npc_nt3" probability="0.48"/>
+      <toEdge id="npc_nt5" probability="0.52"/>
+    </fromEdge>
+  </interval>
+  <interval begin="1200" end="1800">
+    <fromEdge id="nt1_npc">
+      <toEdge id="npc_nt3" probability="0.48"/>
+      <toEdge id="npc_nt5" probability="0.52"/>
+    </fromEdge>
+  </interval>
+  <interval begin="1800" end="2400">
+    <fromEdge id="nt1_npc">
+      <toEdge id="npc_nt3" probability="0.49"/>
+      <toEdge id="npc_nt5" probability="0.51"/>
+    </fromEdge>
+  </interval>
+  <interval begin="2400" end="3000">
+    <fromEdge id="nt1_npc">
+      <toEdge id="npc_nt3" probability="0.46"/>
+      <toEdge id="npc_nt5" probability="0.54"/>
+    </fromEdge>
+  </interval>
+  <interval begin="3000" end="3600">
+    <fromEdge id="nt1_npc">
+      <toEdge id="npc_nt3" probability="0.47"/>
+      <toEdge id="npc_nt5" probability="0.53"/>
+    </fromEdge>
+  </interval>
+  <interval begin="3600" end="4200">
+    <fromEdge id="nt1_npc">
+      <toEdge id="npc_nt3" probability="0.50"/>
+      <toEdge id="npc_nt5" probability="0.50"/>
+    </fromEdge>
+  </interval>
+  <interval begin="4200" end="4800">
+    <fromEdge id="nt1_npc">
+      <toEdge id="npc_nt3" probability="0.48"/>
+      <toEdge id="npc_nt5" probability="0.52"/>
+    </fromEdge>
+  </interval>
+  <interval begin="4800" end="5400">
+    <fromEdge id="nt1_npc">
+      <toEdge id="npc_nt3" probability="0.48"/>
+      <toEdge id="npc_nt5" probability="0.52"/>
+    </fromEdge>
+  </interval>
+  <interval begin="5400" end="6000">
+    <fromEdge id="nt1_npc">
+      <toEdge id="npc_nt3" probability="0.46"/>
+      <toEdge id="npc_nt5" probability="0.54"/>
+    </fromEdge>
+  </interval>
+  <interval begin="6000" end="6600">
+    <fromEdge id="nt1_npc">
+      <toEdge id="npc_nt3" probability="0.48"/>
+      <toEdge id="npc_nt5" probability="0.52"/>
+    </fromEdge>
+  </interval>
+  <interval begin="6600" end="7200">
+    <fromEdge id="nt1_npc">
+      <toEdge id="npc_nt3" probability="0.49"/>
+      <toEdge id="npc_nt5" probability="0.51"/>
+    </fromEdge>
+  </interval>
+  <sink edges="nt6_np12 nt6_np13 nt2_np4 nt2_np5 nt5_np11 nt3_np6"/>
+</turns>

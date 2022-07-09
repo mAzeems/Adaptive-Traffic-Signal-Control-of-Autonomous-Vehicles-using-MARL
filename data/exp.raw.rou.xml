@@ -1,0 +1,117 @@
+<routes>
+  <vType id="type1" length="5" accel="5" decel="10"/>
+  <flow id="mf_3_0" departPos="random_free" begin="0" end="1200" probability="0.28" type="type1">
+    <route edges="nt4_nt5 nt5_nt6 nt6_np12"/>
+  </flow>
+  <flow id="mf_4_0" departPos="random_free" begin="0" end="1200" probability="0.28" type="type1">
+    <route edges="nt1_nt2 nt2_np4"/>
+  </flow>
+  <flow id="mf_5_0" departPos="random_free" begin="0" end="1200" probability="0.28" type="type1">
+    <route edges="nt1_nt6 nt6_np13"/>
+  </flow>
+  <flow id="f_0_0" from="np1_nt1" begin="0" end="600" vehsPerHour="500" type="type1"/>
+  <flow id="f_1_0" from="np2_nt1" begin="0" end="600" vehsPerHour="600" type="type1"/>
+  <flow id="f_2_0" from="np3_nt1" begin="0" end="600" vehsPerHour="100" type="type1"/>
+  <flow id="f_3_0" from="np8_nt4" begin="0" end="600" vehsPerHour="100" type="type1"/>
+  <flow id="f_4_0" from="np9_nt4" begin="0" end="600" vehsPerHour="600" type="type1"/>
+  <flow id="f_0_1" from="np1_nt1" begin="600" end="1200" vehsPerHour="100" type="type1"/>
+  <flow id="f_1_1" from="np2_nt1" begin="600" end="1200" vehsPerHour="700" type="type1"/>
+  <flow id="f_2_1" from="np3_nt1" begin="600" end="1200" vehsPerHour="400" type="type1"/>
+  <flow id="f_3_1" from="np8_nt4" begin="600" end="1200" vehsPerHour="200" type="type1"/>
+  <flow id="f_4_1" from="np9_nt4" begin="600" end="1200" vehsPerHour="400" type="type1"/>
+  <flow id="mf_0_1" departPos="random_free" begin="1200" end="2400" probability="0.28" type="type1">
+    <route edges="nt1_npc npc_nt5 nt5_np11"/>
+  </flow>
+  <flow id="mf_3_1" departPos="random_free" begin="1200" end="2400" probability="0.28" type="type1">
+    <route edges="nt4_nt5 nt5_nt6 nt6_np12"/>
+  </flow>
+  <flow id="mf_4_1" departPos="random_free" begin="1200" end="2400" probability="0.28" type="type1">
+    <route edges="nt1_nt2 nt2_np4"/>
+  </flow>
+  <flow id="f_0_2" from="np1_nt1" begin="1200" end="1800" vehsPerHour="700" type="type1"/>
+  <flow id="f_1_2" from="np2_nt1" begin="1200" end="1800" vehsPerHour="100" type="type1"/>
+  <flow id="f_2_2" from="np3_nt1" begin="1200" end="1800" vehsPerHour="400" type="type1"/>
+  <flow id="f_3_2" from="np8_nt4" begin="1200" end="1800" vehsPerHour="300" type="type1"/>
+  <flow id="f_4_2" from="np9_nt4" begin="1200" end="1800" vehsPerHour="400" type="type1"/>
+  <flow id="f_0_3" from="np1_nt1" begin="1800" end="2400" vehsPerHour="800" type="type1"/>
+  <flow id="f_1_3" from="np2_nt1" begin="1800" end="2400" vehsPerHour="200" type="type1"/>
+  <flow id="f_2_3" from="np3_nt1" begin="1800" end="2400" vehsPerHour="200" type="type1"/>
+  <flow id="f_3_3" from="np8_nt4" begin="1800" end="2400" vehsPerHour="300" type="type1"/>
+  <flow id="f_4_3" from="np9_nt4" begin="1800" end="2400" vehsPerHour="600" type="type1"/>
+  <flow id="mf_1_2" departPos="random_free" begin="2400" end="3600" probability="0.28" type="type1">
+    <route edges="nt1_npc npc_nt5 nt5_nt6 nt6_np12"/>
+  </flow>
+  <flow id="mf_2_2" departPos="random_free" begin="2400" end="3600" probability="0.28" type="type1">
+    <route edges="nt4_nt5 nt5_np11"/>
+  </flow>
+  <flow id="mf_5_2" departPos="random_free" begin="2400" end="3600" probability="0.28" type="type1">
+    <route edges="nt1_nt6 nt6_np13"/>
+  </flow>
+  <flow id="f_0_4" from="np1_nt1" begin="2400" end="3000" vehsPerHour="550" type="type1"/>
+  <flow id="f_1_4" from="np2_nt1" begin="2400" end="3000" vehsPerHour="50" type="type1"/>
+  <flow id="f_2_4" from="np3_nt1" begin="2400" end="3000" vehsPerHour="600" type="type1"/>
+  <flow id="f_3_4" from="np8_nt4" begin="2400" end="3000" vehsPerHour="300" type="type1"/>
+  <flow id="f_4_4" from="np9_nt4" begin="2400" end="3000" vehsPerHour="800" type="type1"/>
+  <flow id="f_0_5" from="np1_nt1" begin="3000" end="3600" vehsPerHour="550" type="type1"/>
+  <flow id="f_1_5" from="np2_nt1" begin="3000" end="3600" vehsPerHour="100" type="type1"/>
+  <flow id="f_2_5" from="np3_nt1" begin="3000" end="3600" vehsPerHour="550" type="type1"/>
+  <flow id="f_3_5" from="np8_nt4" begin="3000" end="3600" vehsPerHour="400" type="type1"/>
+  <flow id="f_4_5" from="np9_nt4" begin="3000" end="3600" vehsPerHour="400" type="type1"/>
+  <flow id="mf_4_3" departPos="random_free" begin="3600" end="4800" probability="0.28" type="type1">
+    <route edges="nt1_nt2 nt2_np4"/>
+  </flow>
+  <flow id="mf_5_3" departPos="random_free" begin="3600" end="4800" probability="0.28" type="type1">
+    <route edges="nt1_nt6 nt6_np13"/>
+  </flow>
+  <flow id="mf_9_3" departPos="random_free" begin="3600" end="4800" probability="0.28" type="type1">
+    <route edges="nt4_nt3 nt3_nt2 nt2_np5"/>
+  </flow>
+  <flow id="f_0_6" from="np1_nt1" begin="3600" end="4200" vehsPerHour="100" type="type1"/>
+  <flow id="f_1_6" from="np2_nt1" begin="3600" end="4200" vehsPerHour="1000" type="type1"/>
+  <flow id="f_2_6" from="np3_nt1" begin="3600" end="4200" vehsPerHour="100" type="type1"/>
+  <flow id="f_3_6" from="np8_nt4" begin="3600" end="4200" vehsPerHour="600" type="type1"/>
+  <flow id="f_4_6" from="np9_nt4" begin="3600" end="4200" vehsPerHour="300" type="type1"/>
+  <flow id="f_0_7" from="np1_nt1" begin="4200" end="4800" vehsPerHour="200" type="type1"/>
+  <flow id="f_1_7" from="np2_nt1" begin="4200" end="4800" vehsPerHour="500" type="type1"/>
+  <flow id="f_2_7" from="np3_nt1" begin="4200" end="4800" vehsPerHour="500" type="type1"/>
+  <flow id="f_3_7" from="np8_nt4" begin="4200" end="4800" vehsPerHour="600" type="type1"/>
+  <flow id="f_4_7" from="np9_nt4" begin="4200" end="4800" vehsPerHour="300" type="type1"/>
+  <flow id="mf_5_4" departPos="random_free" begin="4800" end="6000" probability="0.28" type="type1">
+    <route edges="nt1_nt6 nt6_np13"/>
+  </flow>
+  <flow id="mf_6_4" departPos="random_free" begin="4800" end="6000" probability="0.28" type="type1">
+    <route edges="nt1_npc npc_nt3 nt3_np6"/>
+  </flow>
+  <flow id="mf_9_4" departPos="random_free" begin="4800" end="6000" probability="0.28" type="type1">
+    <route edges="nt4_nt3 nt3_nt2 nt2_np5"/>
+  </flow>
+  <flow id="f_0_8" from="np1_nt1" begin="4800" end="5400" vehsPerHour="250" type="type1"/>
+  <flow id="f_1_8" from="np2_nt1" begin="4800" end="5400" vehsPerHour="450" type="type1"/>
+  <flow id="f_2_8" from="np3_nt1" begin="4800" end="5400" vehsPerHour="500" type="type1"/>
+  <flow id="f_3_8" from="np8_nt4" begin="4800" end="5400" vehsPerHour="800" type="type1"/>
+  <flow id="f_4_8" from="np9_nt4" begin="4800" end="5400" vehsPerHour="300" type="type1"/>
+  <flow id="f_0_9" from="np1_nt1" begin="5400" end="6000" vehsPerHour="250" type="type1"/>
+  <flow id="f_1_9" from="np2_nt1" begin="5400" end="6000" vehsPerHour="150" type="type1"/>
+  <flow id="f_2_9" from="np3_nt1" begin="5400" end="6000" vehsPerHour="800" type="type1"/>
+  <flow id="f_3_9" from="np8_nt4" begin="5400" end="6000" vehsPerHour="500" type="type1"/>
+  <flow id="f_4_9" from="np9_nt4" begin="5400" end="6000" vehsPerHour="200" type="type1"/>
+  <flow id="mf_4_5" departPos="random_free" begin="6000" end="7200" probability="0.28" type="type1">
+    <route edges="nt1_nt2 nt2_np4"/>
+  </flow>
+  <flow id="mf_7_5" departPos="random_free" begin="6000" end="7200" probability="0.28" type="type1">
+    <route edges="nt1_npc npc_nt3 nt3_nt2 nt2_np5"/>
+  </flow>
+  <flow id="mf_8_5" departPos="random_free" begin="6000" end="7200" probability="0.28" type="type1">
+    <route edges="nt4_nt3 nt3_np6"/>
+  </flow>
+  <flow id="f_0_10" from="np1_nt1" begin="6000" end="6600" vehsPerHour="400" type="type1"/>
+  <flow id="f_1_10" from="np2_nt1" begin="6000" end="6600" vehsPerHour="400" type="type1"/>
+  <flow id="f_2_10" from="np3_nt1" begin="6000" end="6600" vehsPerHour="400" type="type1"/>
+  <flow id="f_3_10" from="np8_nt4" begin="6000" end="6600" vehsPerHour="400" type="type1"/>
+  <flow id="f_4_10" from="np9_nt4" begin="6000" end="6600" vehsPerHour="250" type="type1"/>
+  <flow id="f_0_11" from="np1_nt1" begin="6600" end="7200" vehsPerHour="800" type="type1"/>
+  <flow id="f_1_11" from="np2_nt1" begin="6600" end="7200" vehsPerHour="200" type="type1"/>
+  <flow id="f_2_11" from="np3_nt1" begin="6600" end="7200" vehsPerHour="200" type="type1"/>
+  <flow id="f_3_11" from="np8_nt4" begin="6600" end="7200" vehsPerHour="300" type="type1"/>
+  <flow id="f_4_11" from="np9_nt4" begin="6600" end="7200" vehsPerHour="250" type="type1"/>
+</routes>
